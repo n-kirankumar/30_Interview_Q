@@ -1,0 +1,96 @@
+https://www.linkedin.com/pulse/25-python-list-questions-solution-mrityunjay-pathak/
+https://www.datacamp.com/tutorial/18-most-common-python-list-questions-learn-python
+https://medium.com/@mohsin.shaikh324/50-interview-questions-on-python-strings-a3057af7cd2d
+
+# LIST
+1. Explain differences b/w list and tuple ?
+2. Can you explain dictionaries in Python ?
+3. Sort the list based on the second value of a tuple in a list input ->[(2,1), (3,0),(5,2)]
+    Output # [(3,0), (2,1),(5,2)]
+4. How to Remove Duplicates From a List in Python.  i/p [2,2,3,4,4,4,5] output [2,3,4,5]
+4.1 Get the unique elements from the list. i/p [2,2,3,4,4,4,5] output [2,3,4,5]
+5. Write a function to take two lists as a input and get unique elements in list
+6. Write a function to take two lists as a input and get unique elements in list in decending order
+7. For given list get the sum of all integers without using builtin functions?
+8. Write a function to find the maximum element in a list but don't use max fun.
+9. Count the occurrences of an element in a list without using builtIn method.
+10.Count the occurrences of an element in a list without using count method.
+11.Revese a list with reverse method
+12.Revese a list with sort method
+13.Get the even numbers from a list - use loop and append
+14.Get the even numbers from a list - use lambda, filter
+15.Get the even numbers from a list - use list comprehensions!
+16.Get the odd numbers from a list - use loop and append
+17.Get the odd numbers from a list - use lambda, filter
+18.Get the odd numbers from a list - use list comprehensions
+19.Add 3 to the each item of a list - i/p [2,3,4,5] o/p [5,6,7,8]
+20.Get the strs from the list - use list comprehensions
+21.Get the item divisible by 3 & 5 from the list - use list comprehensions
+22.Check if all elements in the list are positive
+22.Remove all occurrences of a 2 from the list i/p [1,2,2,3,3,3,4] o/p [1,3,3,4]
+23.Get the count of each element in a list i/p [1,2,2,2,3,3,4] o/p {1:1,2:3,3:2,4:1}
+24.Check if the list is palindrome or not i/p [1,2,2,1] o/p True i/p:[3,2,1,2] o/p:False
+25.Get all data of integers from a given list i/p [1,2,3,"india", {1: 25}] use - list comprehensions
+26.Get the 3 maximum item from the list - Use backward indexing -3
+27.Flatten a list of lists into a single list. i/p [[1,2,3],[4,5], [6,7,8]] o/p [1,2,3,4,5,6,7,8]
+28.Calculate the product of all items of the list. i/p [1,2,3,4] o/p 24 use - lambda,reduce
+29.Calculate the product of all items of the list. i/p [1,2,3,4] o/p 24 use - use loops
+30.Merge two lists and sort them in ascending order.
+31.Difference between a list and array?
+32.When to Use Python Lists and when to Use Tuples, Dictionaries or Sets ?
+33.What does the Index out of Range Error Mean? in List
+33.How to get a random item from a list i/p:[1,2,3,4,5] o/p:3   o/p:1  o/p: 5
+33.Explain type casting or type conversion in Python ?
+34.How to Determine the Size of your List in Python ?
+35.Explain list methods in Python ?
+36.How to Concatenate Lists in Python
+37.Explain deepcopy and shallow copy of list in Python ?
+38.What is a list comprehension and explain it ?
+39. l1=[1,2,3] l2=[4,5,6] o/p: [(1,4), (2,5), (3,6)]  - Use ZIP function
+
+TUPLE:
+1. Explain about tuple
+2. i/p (1,2,3,4) o/p (1,2,5,3,4) - hint convert to list , insert at 2 position with 5 and convert to list
+3. How to modify a tuple ? Is it possible ?
+
+STRINGS:
+1. Explain about strings in Python ?
+1.1 l1 = ["I","am","Kumar Makala"] o/p: "I am Kumar Makala"
+1.2 mystr = "1234" o/p "1-2-3-4"
+1.3 s = "Hey how are you"  o/p: ["Hey","how","are","you"]
+1.4 s = ("I", "am", "busy") o/p: "I am busy"
+1.5 s = ["45", "Hi", "How", "are", "90", "you"] o/p: "Hi How are you" hint: filter fun
+2. mystr  = "????????123***********" o/p : "123" use strip
+3. mystr  = "????????12356***********"  o/p: 5 digit characters use strip
+4. mystr = "PPL are dying for USA visa" o/p:"PPL are dying for INDIAN visa"
+5. mystr = "Hello I am {} age  23 and studying still" o/p:"Hello I am John 23 and studying still"
+6. mystr = "India is a beautiful country to live" o/p: {"I":1,"n":2,"d":1.... }
+   Question: Get the count of the each character in a string.
+7. mystr = "hello2345" o/p: "hello" - hint : digit chars removed.
+8. Explain the difference between single, double, and triple quotes for defining strings?
+9. How can you concatenate two strings in Python? with an example
+10.How do you find the length of a string?
+11.Explain the concept of string indexing in Python.
+12.How can you access individual characters in a string?
+13.What is string slicing? Provide an example.
+14.How do you reverse a string in Python?
+15.Explain the upper() and lower() string methods.
+16.What is the purpose of the strip() method?
+17.How can you check if a string starts or ends with a specific substring?
+18.["hello", 'bolo', 'india', 'oppo'] get the strings ends with 'o' o/p: ["hello", 'bolo','oppo']
+19.What does the replace() method do in Python strings? with examples
+20. mystr = "Hello hi how are you" o/p: ["Hello", "hi","how","are","you"]
+21. How does the % formatting operator work with strings?
+22. Explain the use of the format() method for string formatting.
+23.What is f-string formatting? Provide an example.
+24.What is a regular expression?
+25.Explain the difference between match() and search() in regular expressions.
+26."Hello 23 Hi 24 Hey 25" o/p: [23,24,25]  Hint: Regex findall
+27.Write a Python function to check if a string is a palindrome.
+28.How would you reverse words in a given string?  "Hello 123" o/p: "olleH 321"
+29.How can you encode and decode strings in Python?
+30.Write a Python function to count the occurrences of a specific character in a string.
+31.Write a Python function to remove duplicate characters from a string.
+32.How to concatenate strings most efficiently in Python?
+33.Can you explain string methods in python ?
+34. How do you format a multi-line string in Python?
